@@ -1,0 +1,23 @@
+//Выполнить сложение различных типов(string+boolean, string+number, number+boolean)
+let a = '1'
+let b = false
+let c = 2
+console.log (a+b)
+console.log (a+c)
+console.log (b+c)
+
+//Выполнить умножение различных типов(string * boolean, string * number, number * boolean)
+let d = '3'
+let e = true
+let f = 4
+console.log (d*e)
+console.log (d*f)
+console.log (e*f)
+
+//Выполнить деление различных типов(string/boolean, string/number, number/Boolean)
+let g = '6'
+let h = true
+let i = 2
+console.log (g/h)
+console.log (g/i)
+console.log (i/h)
