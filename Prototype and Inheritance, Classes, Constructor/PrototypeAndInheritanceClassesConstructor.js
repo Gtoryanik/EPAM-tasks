@@ -2,6 +2,6 @@ let animal = {
     move: true
 };
 let cat = {
-    proto:animal
 }
+cat.__proto__ = animal
 console.log (cat.move)
