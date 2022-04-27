@@ -12,3 +12,7 @@ console.log (c*b);
 console.log (a/b);
 console.log (a/c);
 console.log (c/b);
+
+Number(a);
+Boolean(c);
+String(b);
