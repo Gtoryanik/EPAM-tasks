@@ -1,6 +1,6 @@
 try {
-    console.log(a)
-    let a = 3
+    console.log(a);
+    let a = 3;
 } catch (err) {
-     alert('let перед использованием нужно объявить')
+     alert('let перед использованием нужно объявить');
  }
