@@ -1,7 +1,7 @@
 let i = 15;
-while (i >10 ) {
-    alert(i);
-    i--
+    while (i >10 ) {
+        alert(i);
+            i--
 }
 
 function isOdd () {
@@ -14,25 +14,25 @@ isOdd()
 
 let i = 1
 function primeNumbers () {
-while (i > 0) {
-    isPrime(i)
-    i++
+    while (i > 0) {
+        isPrime(i)
+            i++
 }
     for (let j = 0; j < 20; j++)
        isPrime(j)
-    }
+}
 function isPrime (number) {
     let isPrime = true
-    if (number > 1) {
-        for (let i = 2; i < number; i++) {
-            if (number % i == 0) {
-                isPrime = false;
+        if (number > 1) {
+    for (let i = 2; i < number; i++) {
+        if (number % i == 0) {
+            isPrime = false;
                 break;
-            }
-        }
+}
+}
         if (isPrime) {
             console.log(number);
-        }
-    }
+}
+}
 }
 primeNumbers()
