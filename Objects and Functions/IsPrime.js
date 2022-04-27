@@ -19,4 +19,4 @@ function isPrime (number) {
         console.log('not a prime number');
     }
 }
-console.log (isPrime(15))
+console.log (isPrime(15));
