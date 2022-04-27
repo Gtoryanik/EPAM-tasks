@@ -1,9 +1,9 @@
-let a = 1
-let b = 0
+let a = 1;
+let b = 0;
 try {
     if (b === 0) {
-        throw 'на ноль делить нельзя'
+        throw 'на ноль делить нельзя';
     }
 } catch (error) {
-    alert(error)
+    alert(error);
 }
