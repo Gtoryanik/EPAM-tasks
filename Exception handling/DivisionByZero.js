@@ -1,7 +1,7 @@
 let a = 1;
-let b = 0;
+let b;
 try {
-    if (b === 0) {
+    if (a/b === infinity) {
         throw 'на ноль делить нельзя';
     }
 } catch (error) {
