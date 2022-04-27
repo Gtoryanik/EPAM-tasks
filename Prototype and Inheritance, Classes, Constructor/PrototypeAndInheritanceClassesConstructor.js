@@ -1,7 +1,7 @@
 let animal = {
-    move: true
+    move: true;
 };
 let cat = {
 }
-cat.__proto__ = animal
-console.log (cat.move)
+cat.__proto__ = animal;
+console.log (cat.move);
