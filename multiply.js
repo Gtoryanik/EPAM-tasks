@@ -1,6 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable require-jsdoc */
-/* eslint-disable space-before-blocks */
 /**
  *
  * A method calculating a * b
